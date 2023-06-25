@@ -777,12 +777,14 @@ function draw() {
                 // coinCollecting.play()
                 score3 += 10
                 eatsound.play()
+                health3 += 115
             }
             if (player1.isTouching(brain2) && player1.isTouching(platform3)) {
                 brain2.remove()
                 platform3.remove()
 
                 eatsound.play()
+                health3 += 115
 
                 score3 += 10
             }
@@ -790,7 +792,7 @@ function draw() {
                 brain3.remove()
                 platform4.remove()
                 eatsound.play()
-
+                health3 += 115
                 score3 += 10
             }
 
